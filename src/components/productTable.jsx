@@ -1,4 +1,5 @@
 import React from 'react'
+import './ProductTable.css'
 
 import ProductCategoryRow from './ProductCategoryRow'
 import ProductRow from './ProductRow'
@@ -19,9 +20,9 @@ class ProductTable extends React.Component {
     });
     
     return (
-      <table>
+      <table className="products">
         <thead>
-          <tr>
+          <tr className="head">
             <th>Name</th>
             <th>Price</th>
           </tr>
